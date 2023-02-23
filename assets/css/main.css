@@ -71,6 +71,15 @@
 
 .project-item {
   position: relative;
+  overflow: hidden;
+}
+
+.project-img {
+  transition: all 0.3s;
+}
+
+.project-img:hover {
+  scale: 1.2;
 }
 
 .project-title {
@@ -81,6 +90,12 @@
   color: #fff;
   background-color: #000;
   padding: 8px 16px;
+  transition: all 0.3s;
+}
+
+.project-item:hover .project-title {
+  background-color: #ccc;
+  color: #000;
 }
 
 /* About */
@@ -88,6 +103,18 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+}
+
+.about-img-box {
+  overflow: hidden;
+}
+
+.about-img {
+  transition: all 0.3s;
+}
+
+.about-item:hover .about-img {
+  scale: 1.2;
 }
 
 .about-name {
