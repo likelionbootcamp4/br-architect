@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-img {
+img,
+iframe {
   display: block;
   width: 100%;
   height: auto;
@@ -22,6 +23,23 @@ ul {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+  background: none;
+}
+
+input,
+button {
+  display: block;
+  font: inherit;
+  border: 0;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Verdana, sans-serif;
   font-size: 15px;
@@ -35,7 +53,11 @@ main {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 400;
 }
